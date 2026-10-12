@@ -33,6 +33,7 @@ git add .
 git commit -m "Sync'd with master template"
 git checkout main
 git merge sync
+git branch -u origin/main main
 git push origin main
 
 A partir de ahí en adelante es posible usar GitHub Desktop y seleccionar la
