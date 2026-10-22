@@ -1,0 +1,28 @@
+{
+    "cSpell.enabled": true,
+    "cSpell.language": "en,es",
+    "cSpell.words": [
+        "buildtransitive",
+        "contentfiles",
+        "dotnet",
+        "Doxify",
+        "Doxyfile",
+        "github",
+        "LINQ",
+        "Liskov",
+        "msbuild",
+        "nunit",
+        "preconfiguradas",
+        "Pseudocódigo",
+        "stylecop",
+    ],
+    "cSpell.ignorePaths": [
+        "/.gitignore",
+    ],
+
+    "dotnet.defaultSolution": "Project.sln", // ← Renombrar para que coincida con la solución
+    "github.copilot.enable": {
+        "*": false
+    },
+    "githubPullRequests.codingAgent.codeLens": false,
+}

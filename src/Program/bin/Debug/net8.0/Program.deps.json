@@ -15,9 +15,6 @@
         }
       },
       "DynamicExpresso.Core/2.19.3": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0"
-        },
         "runtime": {
           "lib/netstandard2.0/DynamicExpresso.Core.dll": {
             "assemblyVersion": "2.19.3.0",
@@ -30,7 +27,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {},
       "Ucu.Poo.Dbc/1.0.1": {
         "dependencies": {
           "DynamicExpresso.Core": "2.19.3"
@@ -67,13 +63,6 @@
       "sha512": "sha512-84cSMvhcLON2JUQshIvcEAGMtE5rI7FOlcCT0QC42XPZ12A//qDHWKrB5QUfRrQQlDZZZ7TiLAm7mcrywygmpg==",
       "path": "dynamicexpresso.core/2.19.3",
       "hashPath": "dynamicexpresso.core.2.19.3.nupkg.sha512"
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "path": "microsoft.csharp/4.7.0",
-      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Ucu.Poo.Dbc/1.0.1": {
       "type": "package",

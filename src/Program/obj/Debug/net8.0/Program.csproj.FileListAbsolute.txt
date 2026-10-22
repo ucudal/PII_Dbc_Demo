@@ -41,3 +41,4 @@
 /Users/fmachado/Repos/PII_Dbc_Demo/src/Program/obj/Debug/net8.0/Program.pdb
 /Users/fmachado/Repos/PII_Dbc_Demo/src/Program/obj/Debug/net8.0/Program.genruntimeconfig.cache
 /Users/fmachado/Repos/PII_Dbc_Demo/src/Program/obj/Debug/net8.0/ref/Program.dll
+/Users/fmachado/Repos/PII_Dbc_Demo/src/Program/obj/Debug/net8.0/Program.sourcelink.json
