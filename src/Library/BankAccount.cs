@@ -49,7 +49,7 @@ namespace Ucu.Poo.Dbc.Demo
         [Requires("amount > 0", "El monto del retiro debe ser positivo.")]
         [Requires("amount <= Balance", "No se puede retirar más que el saldo actual.")]
         [Ensures("Balance == old(Balance) - amount")]
-        public void Withdraw(double amount)
+        public virtual void Withdraw(double amount)
         {
             Balance -= amount;
         }

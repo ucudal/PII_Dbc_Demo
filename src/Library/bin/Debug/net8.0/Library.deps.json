@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Library/1.0.0": {
+        "dependencies": {
+          "MethodDecorator.Fody": "1.1.1",
+          "Ucu.Poo.Dbc": "1.0.1"
+        },
+        "runtime": {
+          "Library.dll": {}
+        }
+      },
+      "DynamicExpresso.Core/2.19.3": {
+        "runtime": {
+          "lib/netstandard2.0/DynamicExpresso.Core.dll": {
+            "assemblyVersion": "2.19.3.0",
+            "fileVersion": "2.19.3.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de/DynamicExpresso.Core.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "MethodDecorator.Fody/1.1.1": {
+        "runtime": {
+          "lib/netstandard1.0/MethodDecorator.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      },
+      "Ucu.Poo.Dbc/1.0.1": {
+        "dependencies": {
+          "DynamicExpresso.Core": "2.19.3"
+        },
+        "runtime": {
+          "lib/net8.0/Ucu.Poo.Dbc.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamicExpresso.Core/2.19.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-84cSMvhcLON2JUQshIvcEAGMtE5rI7FOlcCT0QC42XPZ12A//qDHWKrB5QUfRrQQlDZZZ7TiLAm7mcrywygmpg==",
+      "path": "dynamicexpresso.core/2.19.3",
+      "hashPath": "dynamicexpresso.core.2.19.3.nupkg.sha512"
+    },
+    "MethodDecorator.Fody/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1JksJAHjTicbizv9tHWRvccYnn4cr9huCBMsPxMri7LkindtTXFSkGnv2OSwMe9L+26bnp6I9s1Z/xeILp13HA==",
+      "path": "methoddecorator.fody/1.1.1",
+      "hashPath": "methoddecorator.fody.1.1.1.nupkg.sha512"
+    },
+    "Ucu.Poo.Dbc/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cgpnJ0ucw4le6otGVcR7xvaffTDUMRX3dW+/H+uUUVGioYrwKV61xIGWygrtt0DEN9yBZa01yKyJSlTscNYDbA==",
+      "path": "ucu.poo.dbc/1.0.1",
+      "hashPath": "ucu.poo.dbc.1.0.1.nupkg.sha512"
+    }
+  }
+}
